@@ -15,11 +15,8 @@ public class MainActivity extends AppCompatActivity {
 //        setContentView(R.layout.donate_linear);
 //        setContentView(R.layout.donate_relative);
 //        setContentView(R.layout.donate_table);
-        setContentView(R.layout.donate_constraint);
+//        setContentView(R.layout.donate_constraint);
 
-
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        toolbar.inflateMenu(R.menu.toolbar_menu);
 
         NumberPicker numberPicker = findViewById(R.id.numberPicker);
         numberPicker.setMinValue(0);
