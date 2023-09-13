@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
 //        setContentView(R.layout.order_base);
 //        setContentView(R.layout.order_linear);
 //        setContentView(R.layout.order_relative);
-        setContentView(R.layout.order_constraint);
-//        setContentView(R.layout.order_table);
+//        setContentView(R.layout.order_constraint);
+        setContentView(R.layout.order_table);
     }
 }
