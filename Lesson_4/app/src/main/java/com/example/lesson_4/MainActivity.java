@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 //        setContentView(R.layout.donate_linear);
 //        setContentView(R.layout.donate_relative);
 //        setContentView(R.layout.donate_table);
-//        setContentView(R.layout.donate_constraint);
+        setContentView(R.layout.donate_constraint);
 
 
         NumberPicker numberPicker = findViewById(R.id.numberPicker);
