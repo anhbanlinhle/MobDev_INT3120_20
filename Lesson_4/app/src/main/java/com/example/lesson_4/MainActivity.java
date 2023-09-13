@@ -13,7 +13,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 //        setContentView(R.layout.base_donate);
 //        setContentView(R.layout.donate_linear);
-        setContentView(R.layout.donate_relative);
+//        setContentView(R.layout.donate_relative);
+        setContentView(R.layout.donate_table);
 
 
         Toolbar toolbar = findViewById(R.id.toolbar);
