@@ -11,7 +11,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.base_donate);
+//        setContentView(R.layout.base_donate);
+        setContentView(R.layout.donate_linear);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.inflateMenu(R.menu.toolbar_menu);
