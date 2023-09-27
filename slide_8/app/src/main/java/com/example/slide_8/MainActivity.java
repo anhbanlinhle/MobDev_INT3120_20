@@ -10,11 +10,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.Switch;
 
 public class MainActivity extends AppCompatActivity {
     EditText userId;
     EditText userName;
-    CheckBox isActive;
+    Switch isActive;
     Button send;
     EditText msg;
     Button sendMsg;
