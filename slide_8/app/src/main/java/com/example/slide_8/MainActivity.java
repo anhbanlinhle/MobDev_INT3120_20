@@ -5,6 +5,7 @@ import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import android.content.ComponentName;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -73,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra(Intent.EXTRA_TEXT, msg.getText().toString());
                 String target = "com.example.slide_8_2";
                 intent.setPackage(target);
+                intent.setComponent(new ComponentName("com.example.slide_8_2", "com.example.slide_8_2.MyBroadcastReceiver"));
                 sendBroadcast(intent);
                 LocalBroadcastManager.getInstance(MainActivity.this).sendBroadcast(intent);
             }
