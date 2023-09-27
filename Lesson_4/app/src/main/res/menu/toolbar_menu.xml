@@ -8,10 +8,40 @@
         app:showAsAction="always">
         <menu>
             <item
-                android:title="Refresh"
+                android:id="@+id/main"
+                android:title="Spinner"
                 />
             <item
-                android:title="Logout"
+                android:id="@+id/linear_1"
+                android:title="HW1 linear"
+                />
+            <item
+                android:id="@+id/relative_1"
+                android:title="HW1 relative"
+                />
+            <item
+                android:id="@+id/table_1"
+                android:title="HW1 table"
+                />
+            <item
+                android:id="@+id/constraint_1"
+                android:title="HW1 constraint"
+                />
+            <item
+                android:id="@+id/linear_2"
+                android:title="HW2 linear"
+                />
+            <item
+                android:id="@+id/relative_2"
+                android:title="HW2 relative"
+                />
+            <item
+                android:id="@+id/table_2"
+                android:title="HW2 table"
+                />
+            <item
+                android:id="@+id/constraint_2"
+                android:title="HW2 constraint"
                 />
         </menu>
     </item>
