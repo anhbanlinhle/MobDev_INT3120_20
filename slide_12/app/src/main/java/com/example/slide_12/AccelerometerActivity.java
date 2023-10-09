@@ -50,17 +50,7 @@ public class AccelerometerActivity extends AppCompatActivity implements SensorEv
         }
     }
 
-    @Override
-    protected void onPause() {
-        super.onPause();
-        manager.unregisterListener(this);
-    }
-    @Override
-    public void onSensorChanged(SensorEvent sensorEvent) {
-        float x = sensorEvent.values[0];
-        float y = sensorEvent.values[1];
-        float z = sensorEvent.values[2];
-
+    private void handleSensor(float x, float y, float z) {
         xText.setText("x-a: " + x);
         yText.setText("y-a: " + y);
         zText.setText("z-a: " + z);
@@ -80,7 +70,20 @@ public class AccelerometerActivity extends AppCompatActivity implements SensorEv
             prevColor = color;
             screen.setBackgroundColor(color);
         }
+    }
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+        manager.unregisterListener(this);
+    }
+    @Override
+    public void onSensorChanged(SensorEvent sensorEvent) {
+        float x = sensorEvent.values[0];
+        float y = sensorEvent.values[1];
+        float z = sensorEvent.values[2];
+
+        handleSensor(x, y, z);
     }
 
     @Override
