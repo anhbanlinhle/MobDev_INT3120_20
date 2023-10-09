@@ -16,30 +16,37 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void accelerometer(View view) {
+        intent = new Intent(MainActivity.this, AccelerometerActivity.class);
+        startActivity(intent);
     }
 
     public void magnetometer(View view) {
-
+        intent = new Intent(MainActivity.this, MagnetometerActivity.class);
+        startActivity(intent);
     }
 
     public void wifi(View view) {
-
+        intent = new Intent(MainActivity.this, WifiActivity.class);
+        startActivity(intent);
     }
 
     public void call(View view) {
-
+        intent = new Intent(MainActivity.this, CallActivity.class);
+        startActivity(intent);
     }
 
     public void sms(View view) {
-
+        intent = new Intent(MainActivity.this, SmsActivity.class);
+        startActivity(intent);
     }
 
     public void camera(View view) {
-
+        intent = new Intent(MainActivity.this, CameraActivity.class);
+        startActivity(intent);
     }
 
     public void bluetooth(View view) {
-
+        intent = new Intent(MainActivity.this, BluetoothActivity.class);
+        startActivity(intent);
     }
-
 }
