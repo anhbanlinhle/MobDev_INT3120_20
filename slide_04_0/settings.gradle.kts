@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "slide_4"
+rootProject.name = "slide_04_0"
 include(":app")
  

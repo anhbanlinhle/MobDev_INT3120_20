@@ -1,4 +1,4 @@
-package com.example.slide_4;
+package com.example.slide_04_0;
 
 import android.app.Activity;
 import android.os.Bundle;
