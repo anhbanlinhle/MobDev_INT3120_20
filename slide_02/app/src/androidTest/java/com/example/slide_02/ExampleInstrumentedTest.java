@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.slide_02;
 
 import android.content.Context;
 
