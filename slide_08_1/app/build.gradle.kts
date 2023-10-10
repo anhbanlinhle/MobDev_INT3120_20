@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.slide_8_2"
+    namespace = "com.example.slide_08_1"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.example.slide_8_2"
+        applicationId = "com.example.slide_08_1"
         minSdk = 33
         targetSdk = 33
         versionCode = 1
