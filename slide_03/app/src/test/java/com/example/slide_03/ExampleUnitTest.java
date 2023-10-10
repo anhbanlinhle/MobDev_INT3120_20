@@ -1,4 +1,4 @@
-package com.example.week_2;
+package com.example.slide_03;
 
 import org.junit.Test;
 
