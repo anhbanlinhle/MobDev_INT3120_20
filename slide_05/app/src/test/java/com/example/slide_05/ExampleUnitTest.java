@@ -1,4 +1,4 @@
-package com.example.slide_5;
+package com.example.slide_05;
 
 import org.junit.Test;
 
