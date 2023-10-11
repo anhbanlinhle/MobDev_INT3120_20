@@ -15,15 +15,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void toMedia(View view) {
-
+        intent = new Intent(MainActivity.this, MediaActivity.class);
     }
 
     public void toLocation(View view) {
-
+        intent = new Intent(MainActivity.this, LocationActivity.class);
     }
 
     public void toMap(View view) {
-
+        intent = new Intent(MainActivity.this, MapActivity.class);
     }
 
 }
