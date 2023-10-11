@@ -32,7 +32,7 @@
             android:name=".CallActivity"
             android:exported="false" />
         <activity
-            android:name=".WifiActivity"
+            android:name=".wifi.WifiActivity"
             android:exported="false" />
         <activity
             android:name=".magnetometer.MagnetometerActivity"
@@ -51,7 +51,7 @@
         </activity>
 
         <receiver
-            android:name=".ConnectivityChangedReceiver"
+            android:name=".wifi.ConnectivityChangedReceiver"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />

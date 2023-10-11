@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WifiActivity">
+    tools:context=".wifi.WifiActivity">
 
     <Button
         android:id="@+id/scan_wifi"

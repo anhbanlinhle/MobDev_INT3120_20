@@ -1,4 +1,4 @@
-package com.example.slide_12;
+package com.example.slide_12.wifi;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

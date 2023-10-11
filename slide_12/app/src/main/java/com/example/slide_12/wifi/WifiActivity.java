@@ -1,4 +1,4 @@
-package com.example.slide_12;
+package com.example.slide_12.wifi;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -18,6 +18,8 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.slide_12.R;
 
 import java.util.ArrayList;
 import java.util.List;

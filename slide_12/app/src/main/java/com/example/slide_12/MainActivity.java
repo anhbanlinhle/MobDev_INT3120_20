@@ -8,6 +8,7 @@ import android.view.View;
 
 import com.example.slide_12.accelerometer.AccelerometerActivity;
 import com.example.slide_12.magnetometer.MagnetometerActivity;
+import com.example.slide_12.wifi.WifiActivity;
 
 public class MainActivity extends AppCompatActivity {
     Intent intent;
