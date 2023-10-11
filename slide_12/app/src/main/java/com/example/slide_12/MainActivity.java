@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.slide_12.accelerometer.AccelerometerActivity;
+import com.example.slide_12.magnetometer.MagnetometerActivity;
 
 public class MainActivity extends AppCompatActivity {
     Intent intent;

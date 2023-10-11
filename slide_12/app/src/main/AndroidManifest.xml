@@ -35,7 +35,7 @@
             android:name=".WifiActivity"
             android:exported="false" />
         <activity
-            android:name=".MagnetometerActivity"
+            android:name=".magnetometer.MagnetometerActivity"
             android:exported="false" />
         <activity
             android:name=".accelerometer.AccelerometerActivity"

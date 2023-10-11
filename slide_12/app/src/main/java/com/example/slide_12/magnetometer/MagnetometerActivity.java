@@ -1,4 +1,4 @@
-package com.example.slide_12;
+package com.example.slide_12.magnetometer;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,8 @@ import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.slide_12.R;
 
 public class MagnetometerActivity extends AppCompatActivity implements SensorEventListener {
     TextView degree;
