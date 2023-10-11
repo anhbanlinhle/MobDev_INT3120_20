@@ -29,7 +29,7 @@
             android:name=".SmsActivity"
             android:exported="false" />
         <activity
-            android:name=".CallActivity"
+            android:name=".telephony.CallActivity"
             android:exported="false" />
         <activity
             android:name=".wifi.WifiActivity"
