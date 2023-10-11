@@ -1,8 +1,10 @@
-package com.example.slide_12;
+package com.example.slide_12.bluetooth;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.slide_12.R;
 
 public class BluetoothActivity extends AppCompatActivity {
 
