@@ -28,7 +28,7 @@
             android:name=".CameraActivity"
             android:exported="false" />
         <activity
-            android:name=".SmsActivity"
+            android:name=".telephony.sms.SmsActivity"
             android:exported="false" />
         <activity
             android:name=".telephony.call.CallActivity"
@@ -61,10 +61,17 @@
         </receiver>
         <receiver android:name=".telephony.call.PhoneStateChangedReceiver"
             android:exported="true">
-        <intent-filter>
-            <action android:name="android.intent.action.PHONE_STATE"></action>
-    </intent-filter>
-</receiver>
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE"></action>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".telephony.sms.MySMSReceiver"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
