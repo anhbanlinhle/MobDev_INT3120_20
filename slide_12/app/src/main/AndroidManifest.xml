@@ -38,7 +38,7 @@
             android:name=".MagnetometerActivity"
             android:exported="false" />
         <activity
-            android:name=".AccelerometerActivity"
+            android:name=".accelerometer.AccelerometerActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
