@@ -59,6 +59,12 @@
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
         </receiver>
+        <receiver android:name=".telephony.PhoneStateChangedReceiver"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.PHONE_STATE"></action>
+    </intent-filter>
+</receiver>
     </application>
 
 </manifest>
