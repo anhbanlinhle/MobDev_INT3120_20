@@ -21,7 +21,7 @@ public class MediaActivity extends AppCompatActivity {
             "https://samplelib.com/lib/preview/mp3/sample-12s.mp3"
     };
     int current = 0;
-    @Override1
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_media);
