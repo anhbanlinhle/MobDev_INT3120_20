@@ -33,7 +33,7 @@
             android:name=".BluetoothActivity"
             android:exported="false" />
         <activity
-            android:name=".CameraActivity"
+            android:name=".camera.CameraActivity"
             android:exported="false" />
         <activity
             android:name=".telephony.sms.SmsActivity"
