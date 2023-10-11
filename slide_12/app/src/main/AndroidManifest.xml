@@ -31,7 +31,7 @@
             android:name=".SmsActivity"
             android:exported="false" />
         <activity
-            android:name=".telephony.CallActivity"
+            android:name=".telephony.call.CallActivity"
             android:exported="false" />
         <activity
             android:name=".wifi.WifiActivity"
@@ -59,7 +59,7 @@
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
         </receiver>
-        <receiver android:name=".telephony.PhoneStateChangedReceiver"
+        <receiver android:name=".telephony.call.PhoneStateChangedReceiver"
             android:exported="true">
         <intent-filter>
             <action android:name="android.intent.action.PHONE_STATE"></action>
